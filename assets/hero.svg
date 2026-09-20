@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-label="Aldo Rodriguez - AI Systems Builder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0b0d"/>
+      <stop offset="60%" stop-color="#101013"/>
+      <stop offset="100%" stop-color="#0a0a0c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="18%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#e9a23b" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#e9a23b" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#e9a23b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e9a23b"/>
+      <stop offset="60%" stop-color="#e9a23b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#e9a23b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect width="1280" height="400" fill="url(#glow)"/>
+
+  <!-- faint grid -->
+  <g stroke="#ffffff" stroke-opacity="0.03" stroke-width="1">
+    <line x1="0" y1="100" x2="1280" y2="100"/>
+    <line x1="0" y1="200" x2="1280" y2="200"/>
+    <line x1="0" y1="300" x2="1280" y2="300"/>
+  </g>
+
+  <!-- eyebrow -->
+  <text x="80" y="150" font-family="Inter, 'Segoe UI', system-ui, sans-serif" font-size="20" letter-spacing="8" fill="#8a9099">AI SYSTEMS BUILDER</text>
+
+  <!-- name -->
+  <text x="80" y="238" font-family="Inter, 'Segoe UI', system-ui, sans-serif" font-size="84" font-weight="700" letter-spacing="1" fill="#ededee">ALDO RODRÍGUEZ</text>
+
+  <!-- accent rule -->
+  <rect x="82" y="268" width="520" height="3" fill="url(#rule)"/>
+
+  <!-- tagline -->
+  <text x="82" y="312" font-family="'JetBrains Mono', Consolas, monospace" font-size="21" fill="#b9bfc7">the operating layer between humans and AI</text>
+
+  <!-- corner mark -->
+  <text x="1200" y="150" text-anchor="end" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" fill="#e9a23b">◈</text>
+  <text x="1200" y="312" text-anchor="end" font-family="'JetBrains Mono', Consolas, monospace" font-size="16" fill="#5d636b">github.com/aldo485</text>
+</svg>
