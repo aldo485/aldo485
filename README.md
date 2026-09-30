@@ -4,34 +4,35 @@
 
 ## I build the operating layer between humans and AI.
 
-Eighteen years running operations taught me where complex work actually breaks — context lost between tools, handoffs that fail silently, decisions that never get made. I build AI-assisted systems that fix that: keeping long-running work coherent across tools, with evidence at every step.
+My background is in customer-facing sales and operations: understanding business needs, communicating value, resolving complex problems, and making processes work for the people using them. I bring that perspective to AI-agent orchestration and workflow architecture — connecting tools, preserving context, and verifying outcomes.
 
----
+### 🧭 What I focus on
 
-### 🧭 What I build
+- **AI-agent orchestration and MCP/connectors.** Workflows with clear responsibilities, shared context, and structured handoffs across tools.
+- **Operational problem solving.** Translate ambiguous customer and business needs into practical workflows, requirements, and success criteria.
+- **Human-in-the-loop systems.** Explicit approval boundaries, accountable ownership, and recovery when a workflow breaks.
+- **Verification and read-back.** Check the resulting state in the source system; distinguish a reported success from an observed outcome.
 
-- **Automation that keeps context.** Pipelines that carry state across tools without losing the thread.
-- **Governed agent systems.** Multi-agent setups with clear ownership, independent verification, and an explicit trust boundary.
-- **Production-ready tooling.** Systems that survive real operational use — not demos.
+### 🏗️ Selected work
 
-### 🏗️ Flagship work
-
-| Project | What it is | Where |
+| Project | Focus | Where |
 |---|---|---|
-| **Job-Hunt Automation — pipeline core** | A prototype job-search app rebuilt into a deterministic pipeline: atomic migrations, recovery, and a real test suite | *private, in progress* |
-| **Knowledge Base** | A ~2,000-note knowledge vault, git-synced, plus a reusable Browser Worker Module standard for authenticated automation | *private* |
-| **America133** | Product/landing surface for an automation studio — bilingual, PWA, production-deployed | [repo](https://github.com/aldo485/america-landing-architect) |
+| **Job-Hunt Automation** | AI-assisted exploration of job-search workflows, recovery, and verification | *private, in progress* |
+| **Knowledge Base** | Organizing context and reusable guidance for agent workflows | *private* |
+| **America133** | Automation-studio landing-page project built with Lovable | [repo](https://github.com/aldo485/america-landing-architect) |
 
 ### ⚙️ How I work
 
-1. **Evidence over memory** — current observation beats recollection.
-2. **Read broadly, write narrowly** — explore freely, change deliberately.
-3. **Verify independently** — nothing is "done" until it is read back.
-4. **One owner per change** — no two agents mutate the same thing.
+1. **Start with the customer problem** — define the need and what a useful outcome looks like.
+2. **Read broadly, write narrowly** — inspect current evidence and make deliberate changes.
+3. **Verify independently** — read back results before calling work complete.
+4. **Collaborate with technical teams** — communicate requirements, constraints, and findings clearly.
 
-### 🧰 Stack
+### 🧰 Tools and approach
 
-`Claude API · MCP` · `TypeScript · Python` · `Git / GitHub` · `Notion · Linear · Asana` · `Google Cloud AI` · `Netlify`
+AI-agent tools · MCP/connectors · Git/GitHub · Linear · knowledge and workflow systems
+
+I use AI-assisted prototyping to explore implementations and troubleshoot workflows. My contribution centers on orchestration, workflow design, and verification; I collaborate with engineers on code and deployment decisions.
 
 ---
 
@@ -39,5 +40,3 @@ Eighteen years running operations taught me where complex work actually breaks �
   <a href="https://linkedin.com/in/aldo-rodriguez-940a3b122">LinkedIn</a> ·
   <a href="https://github.com/aldo485">github.com/aldo485</a>
 </p>
-
-<!-- This profile is maintained by an agent-operated system: versioned, reviewed, evidence-backed. -->
